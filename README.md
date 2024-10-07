@@ -18,10 +18,10 @@ Table of Contents
 
 
 
-  1. Introduction
+  - Introduction
     This project is a Spring Boot application designed to manage Customers and Products through a RESTful API. It supports standard CRUD operations and provides API documentation via Swagger.
   
-  2. Technologies Used
+  - Technologies Used
     Java 17
     Spring Boot 3.1.6
     Spring Data JPA
@@ -31,7 +31,7 @@ Table of Contents
     JUnit 5 for unit testing
     Mockito for mocking dependencies
   
-  3. Installation
+  - Installation
     Clone the repository:
     git clone https://github.com/yourusername/your-repo.git
     cd your-repo
@@ -42,10 +42,10 @@ Table of Contents
     Run the application:
     mvn spring-boot:run
   
-  4. Usage
+  - Usage
     Once the application is running, you can access the API at http://localhost:8080/api
   
-  5. API Endpoints
+  - API Endpoints
     Customer Endpoints
       GET	/customers	(Retrieve all customers)
       GET	/customers/{id}	(Retrieve a customer by ID)
@@ -62,18 +62,18 @@ Table of Contents
       PATCH	/products/{id}	(Partially update a product)
       DELETE	/products/{id}	(Delete a product by ID)
   
-  6. Testing
+  - Testing
     To run the unit tests, execute the following command:
       mvn test
     All tests are located in the src/test/java/com/example/demo/service directory.
   
-  7. Logging
+  - Logging
     The application uses Logback for logging. Logs are recorded in the console and can be configured in src/main/resources/logback-spring.xml.
   
-  8. Error Handling
+  - Error Handling
     Custom exceptions are implemented for handling errors like CustomerNotFoundException and ProductNotFoundException. When an error occurs, a meaningful error message is returned in JSON format.
   
-  9. GitHub Actions
+  - GitHub Actions
     This repository includes GitHub Actions for continuous integration. The actions run tests on each push to the main branch.
 
 
