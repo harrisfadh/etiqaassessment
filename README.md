@@ -17,6 +17,7 @@ Table of Contents
 9. GitHub Actions
 
 
+
 1. Introduction
   This project is a Spring Boot application designed to manage Customers and Products through a RESTful API. It supports standard CRUD operations and provides API documentation via Swagger.
 
